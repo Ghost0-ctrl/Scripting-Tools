@@ -1,4 +1,6 @@
 # Python Port Scanner
+# This is a basic port scanner that searches for open ports upon entering an IP address.
+
 
 import socket
 from datetime import datetime
