@@ -15,7 +15,7 @@ def scan_ports(target, port_range):
             s.settimeout(0.5)
             result = s.connect_ex((target, port))
             if result == 0:
-                print(f"[+] Port {port} is OPEN... Toyota F**kin Supra!!!")
+                print(f"[+] Port {port} is OPEN...")
             s.close()
     except KeyboardInterrupt:
         print("\nScan aborted.")
@@ -32,3 +32,4 @@ if __name__ == "__main__":
     
     
     
+
